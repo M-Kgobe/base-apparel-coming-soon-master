@@ -1,0 +1,19 @@
+@media screen and (max-width:900px) {
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    main{
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    .desktop{
+        display: none;
+    }  
+    .image{
+        width: 100%;
+    }
+    .image .mobile{
+        display: flex;
+    }
+}
